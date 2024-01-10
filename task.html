@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enter Tasks Page</title>
+    <script type="text/javascript" src="index.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <form action="/entertasks" method="post">
+            <label for="task">Enter Task:</label>
+            <textarea id="task" name="task" rows="4" required></textarea>
+            <br>
+            <button type="submit">Submit Task</button>
+        </form>
+        <p><a href="/default">Go to Default Page</a></p>
+    </div>
+</body>
+</html>
